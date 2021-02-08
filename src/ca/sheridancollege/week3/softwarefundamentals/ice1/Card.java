@@ -1,7 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ *Date: Feb 3, 2021
+ *Title: ICE1
+ *@author Robert Gonzales
+ *@version
+ *
+ *
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 
@@ -47,7 +50,9 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
-   
-   
+   // added to string function
+    public String toString() {
+        return "Suit = '" + suit + '\'' + "|| Value = " + value; //Converts the array into string
+    }
     
 }
